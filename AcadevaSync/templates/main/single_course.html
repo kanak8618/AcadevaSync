@@ -19,7 +19,7 @@ $(document).ready(function(){
 		});
 
 		$.ajax({
-			url:'{% url 'filter-data' %}',
+			url:"{% url 'filter-data' %}",
 			data:filter_object,
 			dataType:'json',
 			success:function(res){
